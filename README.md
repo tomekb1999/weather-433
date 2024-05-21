@@ -1,1 +1,2 @@
 # weather-433
+This is a simple Python program for saving and plotting temperature data received from a specific radio sensor (available in my neighborhood) using [rtl_433](https://github.com/merbanan/rtl_433/). It connects to rtl_433 via UDP and saves the received data into a MySQL database. The program also creates a simple plot with both received and forecasted temperature data from [open-meteo.com](https://open-meteo.com/).
